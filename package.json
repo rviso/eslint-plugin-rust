@@ -4,7 +4,8 @@
   "description": "ESLint plugin for Rust",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.test.js",
+    "lint": "cargo clippy"
   },
   "keywords": [
     "eslint-config"
@@ -36,5 +37,9 @@
   "bugs": {
     "url": "https://github.com/rviso/eslint-plugin-rust/issues"
   },
-  "gitHead": "65d7706106e283a5cfc82552add8d5d6ecc2efb7"
+  "gitHead": "65d7706106e283a5cfc82552add8d5d6ecc2efb7",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
 }

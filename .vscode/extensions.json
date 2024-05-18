@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "tauri-apps.tauri-vscode", // Tauri
+    "rust-lang.rust-analyzer", // Rust Analyzer
+    "jinxdash.prettier-rust", // Prettier for Rust
+    "tamasfe.even-better-toml", // Better TOML
+  ]
+}
