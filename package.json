@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rust",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ESLint plugin for Rust",
   "main": "lib/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "eslint-typescript",
+    "tag": "latest",
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
